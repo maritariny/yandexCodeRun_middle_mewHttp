@@ -108,6 +108,7 @@ public class Main {
             }
         }
     }
+
     private static void allowMethods(String meth) {
         try {
             Field methodsField = HttpURLConnection.class.getDeclaredField("methods");
